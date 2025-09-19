@@ -84,7 +84,7 @@
                                 <div class="item-label item-inventory">@item.Count</div>
                             </div>
                             <div class="col-xs-3 col-sm-3 col-sm-pull-2 col-md-2">
-                                <img src="/Images/@item.Product.ProductArtUrl" alt="@item.Product.Title"/>
+                                <img src="~/Images/@item.Product.ProductArtUrl" alt="@item.Product.Title"/>
                             </div>
                             <div class="col-xs-6 col-sm-2 col-sm-push-5 text-center-sm col-md-push-6">
                                 <div class="visible-xs item-label">@item.Product.Title</div>
@@ -93,7 +93,7 @@
                             <div class="visible-xs col-xs-2 text-right no-gutter-xs-left">
                                 <a href="#" class="remove-link" data-id="@item.CartItemId"
                                    data-url='@Url.Content("~/ShoppingCart/RemoveFromCart")'>
-                                    <img src="/Images/remove_icon.png" alt="remove from cart icon" />
+                                    <img src="~/Images/remove_icon.png" alt="remove from cart icon" />
                                 </a>
                             </div>
                             <div class="col-xs-12 col-sm-5 col-sm-pull-4 col-md-6 description">

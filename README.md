@@ -9,6 +9,8 @@ This repository contains the end-to-end tests for the Parts Unlimited applicatio
 ## How to Build
 
 ```powershell
+cd PartsUnlimited-aspnet45
+
 & "C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe" PartsUnlimited.sln /t:Rebuild /p:Configuration=Debug /p:RestorePackages=true
 ```
 

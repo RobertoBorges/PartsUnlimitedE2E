@@ -33,7 +33,7 @@ namespace PartsUnlimited.Utils
 		protected decimal CalculateTax(decimal taxable, string postalCode = null)
 		{
 			var taxRate = (decimal)0.06;
-			if (postalCode?.StartsWith("98") == true)
+			if (postalCode.StartsWith("98") == true)
 			{
 				taxRate = (decimal)0.075;
 			}

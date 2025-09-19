@@ -5,7 +5,7 @@ namespace PartsUnlimited.Areas.Admin
     public static class AdminConstants
     {
         public const string Area = "Admin";
-        public const string Role = "Administrator";
+        public const string Role = "Administrators";
 
         public static class ManageStore
         {

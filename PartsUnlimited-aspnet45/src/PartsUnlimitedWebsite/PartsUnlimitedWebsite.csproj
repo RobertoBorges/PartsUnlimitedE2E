@@ -15,7 +15,7 @@
     <RootNamespace>PartsUnlimited</RootNamespace>
     <AssemblyName>PartsUnlimited</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -588,7 +588,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52714</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5001/</IISUrl>
+          <IISUrl>http://localhost/PartsUnlimitedWebsite</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
